@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm list:*)",
+      "Bash(node --loader ts-node/esm src/db/init-db.ts)",
+      "Bash(node --loader ts-node/esm src/index.ts)",
+      "Bash(node --import ts-node/esm --experimental-specifier-resolution=node src/index.ts)",
+      "Bash(node --loader ts-node/esm --experimental-specifier-resolution=node src/index.ts)",
+      "Bash(node --loader ts-node/esm --trace-warnings src/index.ts)",
+      "Bash(npm install:*)",
+      "Bash(tsx src/index.ts)",
+      "Bash(npx tsx:*)",
+      "Bash(curl:*)",
+      "Bash(npm run:*)",
+      "Bash(netstat -ano)",
+      "Bash(mysql:*)",
+      "Bash(xargs -I{} taskkill //F //PID {})",
+      "Bash(pkill -f \"tsx\")",
+      "Bash(pkill -f \"vite\")",
+      "Bash(pkill -f \"nodemon\")",
+      "Bash(node -e ':*)",
+      "Bash(taskkill //F //PID 10496)",
+      "Bash(taskkill //F //PID 13792)",
+      "Bash(taskkill //F //PID 1884)",
+      "Bash(taskkill //F //PID 11248)",
+      "Bash(taskkill //F //PID 14644)",
+      "Bash(taskkill //F //PID 12296)",
+      "Bash(cp:*)"
+    ]
+  }
+}

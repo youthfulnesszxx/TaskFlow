@@ -1,0 +1,5 @@
+{
+  "watch": ["src/index.ts", "src/routes", "src/controllers", "src/db"],
+  "ext": "ts,json",
+  "exec": "npx tsx src/index.ts"
+}
